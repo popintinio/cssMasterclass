@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>Formulare</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            </style>
+    </head>
+<body>
+    <table>
+     <tr>
+         <td> <b>reteta de clatite</b> </td>
+         <td><img src="../images/clatite.png">
+        </td>
+    </tr>  
+    <tr>
+        <td> <b>ingrediente</b>
+            <br>
+            <ul>
+            <li>350g faina</li>
+            <li>3 oua</li>
+            <li>50g unt topit</li>
+            <li>500ml lapte rece</li>
+            <li>250ml apa mminerala</li>
+            <li>un praf de sare</li>
+            <li>optional: vanilie, coaja de lamaie</li>
+            <li>ulei pentru prajit</li>
+        </ul>
+        </td>
+        <td> <ol>
+            <li> <b>Timp de preparare</b> 10 minute</li>
+            <li><b>Timp de gatire</b> 2 minute</li>
+            <li> <b> Timp Total </b> 12 minute</li>
+        </ol>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Formular</b>
+            <br>
+<form action="fisierul_generare.php" method="post">
+<label for="numele-tau">Nume si prenume</label>
+    <input type="text" id="numele-tau" placeholder="Numele tau"> 
+    <br>
+    <label for="email">Adresa de email</label>
+    <input type="email" id="email" placeholder="Emailul tau"> 
+    <br>
+    <label for="varsta">varsta</label>
+    <input type="number" placeholder="15-21 ani"> 
+    <br> 
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    </td>
+    <td>
+        <b>Masini preferate</b>
+        <br>
+     <label for="car">Bmw</label>
+     <input type="radio" id="car" name="Bmw" value="Bmw">
+     <br>
+     <label for="car">Audi</label>
+     <input type="radio" id="car" name="Audi" value="Audi">   
+    <br>
+    <label for="car">Mercedes</label>
+     <input type="radio" id="car" name="Mercedes" value="Mercedes">
+     <br>
+     <label for="car">Volvo</label>
+     <input type="radio" id="car" name="Volvo" value="Volvo">
+    <br>
+     <button type="reset">Reset</button>
+    </td>
+</form>
+</tr>
+</body>
+
+</html>
