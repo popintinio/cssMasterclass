@@ -1,0 +1,21 @@
+<html>
+<head>
+ <h2>Tema 2</h2> 
+ <hr>
+</head>
+<body>
+<a href="https://www.google.ro">Link catre google</a>
+
+<ul>
+<li>mere</li>
+<li>pere</li>
+<li>cirese</li>
+</ul>
+
+<A><b><u>element</u> <i>ingrosat</i> (bolduit) <sup>sus</sup> si <sub>jos</sub></b></A>
+<ol start="91">
+    <li>masina</li>
+    <li>bicicleta</li>
+    <li>trotineta</li>
+</ol>
+</body>  
