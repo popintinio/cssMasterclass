@@ -28,14 +28,17 @@
     background: greenyellow;
     position: relative;
 }
+.level3 .item:hover {
+    background: red;
+    color: white;
+}
 .level2 .item:hover .level3 {
     display: flex;
     left: 150px;
     top: 0;
     position: absolute;
-    background: red;
-    color: white;
 }
+
 .level4{
     display: none;
 }
@@ -56,6 +59,10 @@
 .level5 .item {
     background: orange;
     position: relative;
+}
+.level5 .item:hover {
+    background: blue;
+    color: white;
 }
 .level4 .item:hover .level5{
     display: block;
